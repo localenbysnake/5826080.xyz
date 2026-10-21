@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color: #0F0;
+  font-family: "Courier New", Courier, Monospace;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+a:link {
+  color:#0F0;
+}
+a:visited {
+  color:#0A0;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: #040804;
+}
