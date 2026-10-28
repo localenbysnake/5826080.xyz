@@ -29,3 +29,9 @@ a:visited {
   text-align: center;
   background-color: #040804;
 }
+#foot {
+position: sticky;
+bottom: 0;
+text-align: center;
+background-color: #040804;
+}
