@@ -1,7 +1,7 @@
 class GlobalHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <header class="global_header">
+        <header class="global-header">
         <nav id="navbar">
         <a href="/">Home</a> <span style="color:white">|</span>
         <a href="/about/">About me</a> <span style="color:white">|</span>
@@ -16,12 +16,12 @@ class GlobalHeader extends HTMLElement {
 class GlobalFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <footer class="global_footer">
+        <footer class="global-footer">
         <p>All content under CC-BY-SA license unless otherwise specified, <a href="/copyright">more information here</a>.</p>
         </footer>
         `;
     }
 }
 
-customElements.define('global_header', GlobalHeader);
-customElements.define('global_footer', GlobalFooter);
+customElements.define('global-header', GlobalHeader);
+customElements.define('global-footer', GlobalFooter);
