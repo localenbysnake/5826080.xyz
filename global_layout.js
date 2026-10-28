@@ -2,7 +2,7 @@ class GlobalHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <header class="global-header">
-        <nav id="navbar">
+        <nav class="navbar">
         <a href="/">Home</a> <span style="color:white">|</span>
         <a href="/about/">About me</a> <span style="color:white">|</span>
         <a href="/about/contact/socials">Social medias</a> <span style="color:white">|</span>

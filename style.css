@@ -23,7 +23,7 @@ a:link {
 a:visited {
   color:#0A0;
 }
-#navbar {
+.navbar {
   position: fixed;
   left: 0;
   top: 0;
