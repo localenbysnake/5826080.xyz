@@ -16,8 +16,10 @@ class GlobalHeader extends HTMLElement {
 class GlobalFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <footer class="global-footer" id="foot">
+        <footer class="global-footer">
+        <div class="foot">
         <p>All content under CC-BY-SA license unless otherwise specified, <a href="/copyright">more information here</a>.</p>
+        </div>
         </footer>
         `;
     }
