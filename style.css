@@ -24,10 +24,13 @@ a:visited {
   color:#0A0;
 }
 #navbar {
-  position: sticky;
+  position: fixed;
+  left: 0;
   top: 0;
+  width: 100%;
   text-align: center;
   background-color: #040804;
+  padding: 5px;
 }
 .foot {
 position: fixed;
@@ -36,5 +39,5 @@ bottom: 0;
 width: 100%;
 text-align: center;
 background-color: #040804;
-padding: 15px;
+padding: 5px;
 }
