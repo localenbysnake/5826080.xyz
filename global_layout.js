@@ -10,6 +10,7 @@ class GlobalHeader extends HTMLElement {
         <a href="/about/faq">Frequently asked questions</a>
         </nav>
         </div>
+        <br>
         </header>
         `;
     }
