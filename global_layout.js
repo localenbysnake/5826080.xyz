@@ -20,7 +20,7 @@ class GlobalFooter extends HTMLElement {
         this.innerHTML = `
         <footer class="global-footer">
         <div class="foot">
-        <p>All content under CC-BY-SA license unless otherwise specified, <a href="/copyright">more information here</a>.</p>
+        <p>All content under CC-BY-SA 4.0 International license unless otherwise specified, <a href="/copyright">more information here</a>.</p>
         <p>Contact me <a href="/about/contact/">here</a> for any inquiries.</p>
         </div>
         </footer>
